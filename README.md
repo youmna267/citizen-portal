@@ -22,13 +22,16 @@ Light and dark themes are supported throughout.
 
 ## Stack
 
-| Layer | Technology |
-|---|---|
-| Frontend | Next.js 14 (App Router) · TypeScript · Tailwind CSS |
-| Backend | NestJS 10 · TypeScript · JWT auth · role-based guards |
-| Database | PostgreSQL 16 |
-| Containerization | Docker · Docker Compose |
-| Storage | Named Docker volume (`postgres-data`) — survives rebuilds |
+| Stack             | Technology                                            |
+| ----------------- | ----------------------------------------------------- |
+| Frontend          | Next.js 14 (App Router) · TypeScript · Tailwind CSS   |
+| Backend           | NestJS 10 · TypeScript · JWT auth · Role-based guards |
+| Database          | PostgreSQL 16                                         |
+| Cache / Session   | Redis 7                                               |
+| API Documentation | Swagger / OpenAPI 3.0                                 |
+| Containerization  | Docker · Docker Compose                               |
+| Storage           | Named Docker volume                                   |
+
 
 ## Default admin account
 
